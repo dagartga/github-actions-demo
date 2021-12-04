@@ -6,6 +6,10 @@ install-aws:
 	pip install --upgrade pip &&\
 		pip install -r requirements-aws.txt
 		
+install-aws-ubuntu:
+	pip install --upgrade pip &&\
+		pip install -r aws-ubuntu.txt
+		
 format:
 	black *.py
 	
