@@ -10,15 +10,15 @@ jobs:
       with:
         python-version: 3.8
     - name: Install dependencies
-      run:
+      run: |
         make install
     - name: Lint
-      run:
+      run: |
         make lint
     - name: Test
-      run:
+      run: |
         make test
     - name: Format
-      run:
+      run: |
         make format
     
